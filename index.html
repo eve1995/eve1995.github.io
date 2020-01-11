@@ -5,7 +5,11 @@
 <title>Course Portal Home Page</title>
     <link rel="stylesheet" href="style.css">		
 </head>
-
+<script type="text/javascript">
+    onload = function(){
+        document.getElementById("lastModified").innerHTML = document.lastModified;
+    }
+</script>
 
 <body>
     <header>
@@ -35,7 +39,7 @@
     <footer>
         <div class="footer-div">
             &copy;2020 | Evelyn Lamb | Utah | <a href="https://my.byui.edu/ics/">BYUI Online Learning</a>
-            <br>Last Updated:
+            <br>Last Updated: <span id="lastModified"></span>
         </div>
         
     </footer>
