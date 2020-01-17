@@ -2,6 +2,9 @@
 <html lang = "en-us">
 <head>
     <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" 
+          content="Assignment portal for Evelyn Lamb in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
     <title>Course Portal Home Page</title>
     <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
@@ -11,6 +14,7 @@
     <script>
         onload = function(){
             document.getElementById("lastModified").innerHTML = document.lastModified;
+            document.getElementById("copyright-year").innerHTML = new Date().getFullYear();            
         }
     </script>	
 </head>
@@ -18,10 +22,10 @@
 
 <body>
     <header>
+        <img id="picture" src="Images/school-picture.jpg" alt="picture of Evelyn Lamb">    
         <h1>Evelyn Lamb</h1>
     </header>
     <div class="photo">
-        <img id="picture" src="Images/school-picture.PNG" alt="picture of Evelyn Lamb">
     </div>     
     <div class="assignment-div">
         <h2><strong>CIT 230: Assignment Portal</strong></h2>
@@ -43,7 +47,7 @@
     </div>
     <footer>
         <div class="footer-div">
-            &copy;2020 | Evelyn Lamb | Utah | <a href="https://my.byui.edu/ics/">BYUI Online Learning</a>
+            &copy;<span id="copyright-year"></span> | Evelyn Lamb | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
             <br>Last Updated: <span id="lastModified"></span>
         </div>
         
