@@ -23,7 +23,7 @@ main section {
     font-family: 'Domine', serif;
 }
 body {
-    max-width: 100%;
+    max-width: 900px;
 }
 h2 {
     text-align: center;
