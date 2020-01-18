@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang = "en-us">
+<head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" 
+          content="Design Principles page for Evelyn Lamb in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>Design Principles</title>
+    <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/small.css">
+    <link rel="stylesheet" href="../css/medium.css">
+    <link rel="stylesheet" href="css/lesson2.css">
+       
+    <script>
+        onload = function(){
+            document.getElementById("lastModified").innerHTML = document.lastModified;
+            document.getElementById("copyright-year").innerHTML = new Date().getFullYear();            
+        }
+    </script>	
+</head>
+
+
+<body>
+    <header>
+        <img id="picture" src="../images/school-picture.jpg" alt="picture of Evelyn Lamb">    
+        <h1>Evelyn Lamb</h1>
+    </header> 
+    <h2 class="lesson-heading"><strong>Design Priciples Document</strong></h2>   
+    <main>
+        <section>
+            <h3>White Space and Clean Design</h3>
+            <span class="company-name">Google</span>
+            <a href="https://images.google.com">google.com</a>
+            <img id="google" src="images/google.png" alt="google page">
+            <span class="description">Description</span>
+            <p>In this website we can appreciate how well white space is utilized. The negative space makes it look simple and helps you focus on what you want to find.</p>
+        </section>
+        <section>
+            <h3>Alignment</h3>
+            <span class="company-name">AccuWeather</span>
+            <a href="https://www.accuweather.com/en/us/eagle-mountain-ut/84005/hourly-weather-forecast/2172935">accuweather.com</a>
+            <img id="accuweather" src="images/accuweather.png" alt="accuweather page">
+            <span class="description">Description</span>
+            <p>The information presented on this website is very well aligned. This makes the site look organized and easy to follow.</p>
+        </section>
+        <section>
+            <h3>Hierarchy</h3>
+            <span class="company-name">Wawa</span>
+            <a href="https://www.wawa.com">wawa.com</a>
+            <img id="wawa" src="images/wawa.png" alt="wawa page">
+            <span class="description">Description</span>
+            <p>This website illustrates the principle of hierarchy. The eyes go first to the red cup of soda, then to the burger, and following to the price.</p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-div">
+            &copy;<span id="copyright-year"></span> | Evelyn Lamb | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+            <br>Last Updated: <span id="lastModified"></span>
+        </div>
+        
+    </footer>
+
+</body>
+</html>

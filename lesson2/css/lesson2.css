@@ -1,0 +1,79 @@
+
+main img {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+main {
+    display: grid;
+    grid-template-columns:  1fr;
+    font-size: 0.8rem;
+    justify-items:center;
+    
+}
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+    background-color:#a08484;
+    border-radius: 10px;
+    font-family: 'Domine', serif;
+}
+body {
+    max-width: 100%;
+}
+h2 {
+    text-align: center;
+    
+}
+h3 {
+    font-size: 1.3rem;
+    text-align: center;
+}
+.lesson-heading {
+    font-size: 1rem;
+
+}
+.company-name, section a, .description {
+    text-align: center;
+    float: left;
+    width: 100%;
+    font-size: 1rem;
+}
+.description{
+    text-decoration: underline;
+}
+section p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    
+}
+@media only screen and (min-width: 37.5em) {
+	main {
+		grid-template-columns: 1fr 1fr;
+    }
+    section:nth-child(3) {
+		grid-column: span 2;
+    }
+    .lesson-heading {
+        font-size: 2.0rem;
+
+    }
+    
+    #picture {
+        width: 130px;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+    }
+    section:nth-child(3) {
+		grid-column: span 1;
+	}
+}
