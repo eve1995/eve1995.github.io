@@ -47,10 +47,11 @@ header a {
     text-decoration: none;
 }
 a {
-    color:white;
+    color:black;
 }
 a:hover, footer a:hover, .selected-page {
     color: #000000;
+    font-weight: bolder;
 }
 nav li:hover{
     background-color: lightblue;
