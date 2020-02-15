@@ -1,0 +1,256 @@
+header img {
+    float: left;
+    margin-right: -20px;
+    width: 100px;
+    margin-top: -5px;
+    
+}
+header h1 {
+    text-align: left;
+    margin: 0;
+    padding-bottom: 0;
+    font-size: 1.5rem;
+} 
+header {
+    margin-bottom: 30px;
+}
+header, footer {
+    background-color:#4275bf;
+    border-radius: 0;
+    
+}
+.logo {
+    transform: rotate(-45deg);
+}
+.tagline {  
+    display:block;   
+    margin-left: 80px;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+nav {
+    margin-top: 15px;
+    background-color: skyblue;
+    
+}
+header a {
+    text-decoration: none;
+}
+a {
+    color:black;
+}
+a:hover, footer a:hover, .selected-page {
+    color: #000000;
+    font-weight: bolder;
+}
+nav li:hover{
+    background-color: lightblue;
+}
+nav li {
+    padding: 15px;
+}
+nav ul li a {
+    white-space: nowrap;
+}
+
+h1, h2, h3   {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    font-size: 1.5rem;
+}
+h2 {
+    font-size: 1.25rem;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+body, header, footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section h2 {
+    text-align: center;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.responsive li {
+    display: block;
+    border-top-style: solid;
+    border-top-width: thin;
+}
+footer { 
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main { 
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.photo {
+    width: 100%;
+}
+
+.tableinfo {
+    text-align: right;    
+}
+td {
+    text-align: left;
+    padding-right: 10px;
+}
+.hero-div {
+    position: relative;
+}
+.weathersummary h3 {
+    font-size: .9rem; 
+}
+
+.weathersummary {
+    position: absolute;
+    width: 160px;
+    font-size: .75rem;
+    border: 1px solid;
+    padding: .5rem;
+    box-shadow: 0 0 10px #4275bf;
+    opacity: .8;
+    top: 10px;
+    left:10px;
+    background: radial-gradient(yellow, lightblue)
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex img {
+    width: 45px; 
+    margin-top: 15px;   
+    margin-bottom: 15px;
+}  
+.col {
+    flex: 1 1 100%;
+	border: 1px solid #333;
+	background-color: lightblue;
+	font-size: 13px;
+    text-align: center;
+    height: 150px;
+    width: 100px;
+}
+.day-label {
+    background-color: #4275bf;
+    display: block;
+    height: 30px;
+    font-size: 1.2rem;
+}
+.fivedays {
+    display: none;
+}
+.temp-label {
+    display: block;
+    font-size: 1.2rem;
+}
+.article-topic {
+    background-color: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.article-topic img {
+    float: right;
+    width: 200px;
+    padding: 10px;
+}
+.article-topic h4 {
+    text-align: center;
+}
+.article-topic h3, .article-topic h4 {
+    font-size: .9rem;
+}
+.map-info {
+    background-color: lightblue;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+.address-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.address, .contact {   
+    margin-bottom: -10px;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.address {
+    text-align: center;
+}
+.address-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.address-image {
+    display: none;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socialmedia {
+    width: 45px;
+    padding-top: 25px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+.contact {
+    text-align: left;
+}
+.contact-image {
+    width: 25px;
+}
+
+
+
+.banner {
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: none;
+}
+.banner p {
+    margin: 0;
+}
+.show {
+    display: block;
+}
