@@ -24,4 +24,10 @@
     .gallery-photo:hover {
         box-shadow: 0 0 50px #333;
     }
+    .gallery-photo img {
+        width: 100%;
+    }
+    .container {
+        grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));       
+    }
 }
