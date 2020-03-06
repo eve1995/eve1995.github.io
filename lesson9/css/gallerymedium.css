@@ -1,0 +1,38 @@
+@media only screen and (min-width:37.5em){
+    header {
+        height: 150px;
+    }
+    header h1 {
+        font-size: 2.5rem;
+    } 
+    .tagline {  
+        font-size: 20px;
+    }
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 100%;
+	}
+	.navigation li:first-child {
+		display: none;
+    }
+    .responsive li {
+        border-top-style: none;
+    }
+    .gallery-photo {
+        margin: 10px auto 40px auto;
+    }
+    .container {
+        display:grid; 
+        grid-gap: 15px;
+        grid-template-columns: repeat(auto-fill, minmax(305px, 1fr));       
+    }
+    .gallery-photo img {
+        width: 300px;
+    }
+    .gallery-photo p {
+        font-size: 16px;
+    }
+}
