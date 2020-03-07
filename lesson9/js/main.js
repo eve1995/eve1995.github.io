@@ -1,7 +1,6 @@
 onload = function(){
     document.getElementById("lastModified").innerHTML = formatDate(new Date());
-    document.getElementById("copyright-year").innerHTML = new Date().getFullYear();   
-    checkBannerDisplay();          
+    document.getElementById("copyright-year").innerHTML = new Date().getFullYear();            
 }
 
 function formatDate(date) {
@@ -25,11 +24,4 @@ function formatDate(date) {
     return dayNames[dayOfWeek] + ", " + day + " " + monthNames[monthIndex] + " " + year;
   }
   
-  function checkBannerDisplay(){
-    const date = new Date();
-    const dayOfWeek = date.getDay();
-    if (dayOfWeek === 5)
-    {
-      document.querySelector(".banner").classList.toggle("show");
-    }
-  }
+  
