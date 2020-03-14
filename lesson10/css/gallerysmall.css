@@ -1,0 +1,23 @@
+body {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    display:grid; 
+    grid-gap: 15px;
+    grid-template-columns: 1fr;       
+}
+.gallery-photo {
+    text-align: center;
+    text-align: -webkit-center;
+}
+.gallery-photo p {
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.gallery-photo img {
+    width: 250px;
+}

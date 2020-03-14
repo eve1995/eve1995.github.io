@@ -1,0 +1,12 @@
+@media only screen and (min-width:60em){
+    .weathersummary h3 {
+        font-size: 1.2rem; 
+    }
+    .weathersummary {
+        width: 210px; 
+        font-size: 14px;
+        padding: 1.5rem;
+        top: 35px;
+        left:35px;
+    }
+}
