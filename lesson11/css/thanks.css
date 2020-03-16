@@ -1,0 +1,13 @@
+main {
+    height: 150px;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 20%;
+    max-width: 90%;
+}
+
+@media only screen and (min-width:40em){
+    main {
+        margin-top: 150px;
+    }
+}

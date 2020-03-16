@@ -1,0 +1,8 @@
+@media only screen and (min-width:60em){
+    .gallery-photo:hover {
+        box-shadow: 0 0 50px #333;
+    }
+    .gallery-photo img {
+        width: 100%;
+    }
+}

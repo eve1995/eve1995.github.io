@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html lang = "en-us">
+<head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" 
+          content=" Preston Weather API for Evelyn Lamb in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>Preston Weather API</title>
+    <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet">
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/small.css">
+    <link rel="stylesheet" href="../css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/prestonsmall.css">
+    <link rel="stylesheet" href="css/prestonmedium.css">
+    <link rel="stylesheet" href="css/prestonlarge.css">
+</head>
+
+
+<body>
+    <div class= "banner">
+        <p>Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park pavilion</p>
+    </div> 
+
+    <header>
+        <img class="logo" src="images/umbrella-128.png" alt="colorful umbrella image">    
+        <h1>Caribbean Clima
+            <span class="tagline"><strong>Sweating Comes Free</strong></span>
+        </h1>    
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#" >&#9776; Menu </a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="selected-page" href="preston.html">Preston</a></li>
+                <li><a href="">Soda Springs</a></li>
+                <li><a href="">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>  
+        </nav>
+        
+    </header> 
+    <main>
+    <h2>Preston Idaho</h2>
+    <div class="hero-div">
+        <picture>
+            <source media="(max-width: 200px)" srcset="images/idahoimage-200.jpg"/> 
+            <source media="(max-width: 37.5em)" srcset="images/idahoimage-500.jpg"/> 
+            <source media="(max-width: 60em)" srcset="images/idahoimage-800.jpg"/> 
+            <img class="photo" src="images/idahoimage.jpg" alt="image of Preston Town">
+        </picture>
+        <section class="weathersummary">
+            <h3>Weather Summary</h3>
+            <table class= "summarytable">
+                <tr>
+                    <td class="tableinfo"><strong>Currently:</strong></td>
+                    <td><span id="currently"></span></td>
+                </tr>
+                <tr>    
+                    <td class="tableinfo"><strong>High:</strong></td>
+                    <td><span id="temperature"></span>&deg; F</td>
+                </tr>
+                <tr>
+                    <td class="tableinfo"><strong>Wind Chill:</strong></td>
+                    <td><span id="wind-chill"></span></td>
+                </tr>
+                <tr>
+                    <td class="tableinfo"><strong>Humidity: </strong></td>
+                    <td><span id="humidity"></span>%</td>
+                </tr>
+                <tr>
+                    <td class="tableinfo"><strong>Wind Speed:</strong></td>
+                    <td><span id="wind-speed"></span> mph</td>
+                </tr>
+            </table>
+        </section>    
+    </div>  
+    <div class= "fivedays">
+        <h3>5 Day Forecast</h3>
+        <div id="fiveday-forecast" class="flex"></div>
+    </div>
+    <div class="article-topic">
+        <h3>Extension notes: Winter Preparation - Spring Prosperity</h3>
+        <h4>By BRACKEN HENDERSON Franklin County Extension Educator Feb 5, 2020</h4>
+        <p> <img src="images/apples.jpg" alt="photo of apples">As soon as our snow begins to turn slushy and the first patches of matted grass appear, I get antsy. My mind knows Mother Nature is just teasing, yet my heart can’t resist a peek in south-facing flower beds for the beginnings of daffodils. Winter is a difficult time for the gardener in us. While there is little outside that can be done, a little preparation and forethought now will pay dividends when spring is really on its way.</p>
+        <p>Consider your gardening goals. You may have never consciously thought you had them. Ask yourself why you garden. What do you hope to get out of it? Based on your objectives, develop a plan that utilizes the space available. If you’re most interested in economical production of fresh produce, don’t use things requiring lots of growing space or that your family doesn’t really like to eat. If you like most to simply grow lots of different things, plan that diversity into your garden plot. Don’t outline rows upon rows of corn or tomatoes and run out of room for your decorative gourds. While the consequences aren’t as extreme, you wouldn’t decide how many rooms you want in your house while at the store buying lumber. However, that is exactly the way we typically do garden planning. Regardless of your objectives, you will better fulfill them if you plan to work towards what gives you satisfaction.</p>
+        
+    </div>
+    <div class="map-info">
+        <img class= "address-image" src="images/map.png" alt="Preston Idaho Map">
+        <table class= "address-table">
+            <tr>
+                <td class= "address address-title"><strong>Caribbean Clima</strong></td>
+            </tr>
+            <tr>
+                <td class= "address">28 N 8st E</td>
+            </tr>
+            <tr>
+                <td class= "address">Preston, ID 83263</td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="contact-info">
+                        <tr>
+                            <td>
+                                <img class="contact-image" src="images/phoneimages.png" alt="image of phone">
+                            </td>
+                            <td class= "contact">777-777-7777</td>                    
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="contact-image" src="images/mailimages.png" alt= "image of email">
+                            </td>
+                            <td class= "address">caribbeanclima.com</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>                
+            <tr>
+                <td>
+                    <div class="logos">
+                        <a href="https://www.facebook.com" target="_blank"><img class= "socialmedia" src="images/facebook.png" alt ="facebook logo"></a>
+                        <a href="https://www.pinterest.com" target="_blank"><img class= "socialmedia" src="images/pinterest.png" alt ="pinterest logo"></a>
+                        <a href="https://www.twitter.com" target="_blank"><img class= "socialmedia" src="images/twitter.png" alt="twitter logo"></a> 
+                    </div>
+                </td>
+            </tr>
+        </table>    
+    </div>
+    </main>
+    <footer>
+        <div class="footer-div">
+            &copy;<span id="copyright-year"></span> | Caribbean Clima | Evelyn Lamb
+            <br><span id="lastModified"></span>
+            <br><span id="weatherAttribution">Weather Data Provided by </span>
+            <a href="https://openweathermap.org/">OpenWeather</a>
+        </div>        
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="../js/webfont.js"></script>
+    <script src= "js/ham-menu.js"></script>
+    <script src= "js/windchill.js"></script>
+    <script src= "js/preston.js"></script>
+    <script src= "js/prestonweathersum.js"></script>
+    <script src= "js/prestonforecast.js"></script>
+</body>
+</html>

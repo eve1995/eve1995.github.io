@@ -1,0 +1,9 @@
+@media only screen and (min-width:60em){
+ 	form label.sbs {
+        padding: .4rem 0;
+        
+    }
+    #comments {
+        min-height: 175px;
+    }
+}
