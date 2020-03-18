@@ -1,0 +1,47 @@
+@media only screen and (min-width:37.5em){
+    .weathersummary h3 {
+        font-size: .9rem; 
+    }
+    .weathersummary {
+        font-size: 12px;
+        padding: 1rem;
+        top: 25px;
+        left: 25px;
+    }
+    .banner {
+        padding: 15px;
+        font-size: 20px;
+    }
+    .fivedays {
+        display: block;
+        margin-bottom: 30px;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .address-image {
+        display: block;
+        float: left;
+        width: 400px;
+        padding: 15px;
+    }
+    .address-table {
+        margin-top: -50px;
+    }
+    .map-info {
+        height: 430px;
+    }
+    .article-topic {
+        font-size: 1.1rem;
+        margin-top: inherit;
+        margin-bottom: 30px;
+        padding: 15px;        
+    }
+    .article-topic h3, .article-topic h4 {
+        font-size: inherit;
+    }
+    .article-topic img {
+        width: 300px;
+        padding: 15px;
+    }
+}

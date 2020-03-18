@@ -39,7 +39,7 @@ nav ul {
 
 nav {
     margin-top: 15px;
-    background-color: skyblue;
+    background-color: cadetblue;
     
 }
 header a {
@@ -93,7 +93,6 @@ section h2 {
     border-top-width: thin;
 }
 footer { 
-    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -109,6 +108,7 @@ body {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    background-color: aliceblue;
 }
 .photo {
     width: 100%;
