@@ -1,6 +1,6 @@
-const sodaSpringsEventsURL="https://byui-cit230.github.io/weather/data/towndata.json";
-const pagetowns = ["Soda Springs"];
-fetch(sodaSpringsEventsURL)
+const prestonEventsURL="https://byui-cit230.github.io/weather/data/towndata.json";
+const pagetowns = ["Preston"];
+fetch(prestonEventsURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
