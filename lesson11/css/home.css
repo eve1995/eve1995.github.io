@@ -16,8 +16,10 @@
 }
 section img {
     margin: 15px;
-    width: 200px;
+    width: 245px;
+    height: 190px;
 }
+
 div .motto {
     font-size: 1.2rem;
     font-style: oblique;
@@ -36,6 +38,7 @@ footer {
     }
     section img {
         width: 285px;
+        height: 190px; 
     }
 }
 @media only screen and (min-width:40em){
@@ -59,6 +62,7 @@ footer {
 
     section img {
         width: 425px;
+        height: 190px; 
     }
     section h2 {
         font-size: 2rem;
@@ -77,8 +81,10 @@ footer {
         flex-direction: unset;
         align-items: unset;
         text-align: unset;
+       
     }
     section img {
         width: 285px;
+        height: 190px;       
     }
 }
