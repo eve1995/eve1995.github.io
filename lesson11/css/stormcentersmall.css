@@ -1,11 +1,11 @@
 form fieldset {
 	margin: 2rem 0;
-	border: 1px solid #445ba9;
+	border: 1px solid #064168;
 	border-radius: 10px;
 	padding: .5rem 2%;
 }
 form legend {
-	color: #4275bf;
+	color: #064168;
 	margin: 0 1rem;
 	padding: 0 .5rem;	
 }
@@ -69,6 +69,6 @@ legend {
 }
 main h1 {
     padding-bottom: 0;
-    color: #4275bf;
+    color: #064168;
     font-weight: bold;
 }
