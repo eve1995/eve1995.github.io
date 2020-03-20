@@ -63,7 +63,6 @@ td {
     background-color: cadetblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1rem;
-    margin-top: 100px;
     margin-bottom: 15px;
     padding: 10px;
 }
@@ -85,6 +84,7 @@ td {
     padding: 15px;
     display: flex;
     align-items: center;
+    margin-top: 30px;
     
 }
 .address-table {
@@ -144,12 +144,25 @@ td {
 }
 .events {
     margin-right: auto;
-    height: 50px;
     border: #064168;
     border-style: solid;
     border-width: 10px;
     margin-bottom: 30px;
     background-color: lightblue;
-    width: 480px;
     margin-left: auto;
+    margin-top: 95px;
+}
+.events hr {
+    width: 90%;
+    border: 1px solid aliceblue;
+    margin-bottom: 15px;
+}
+#event-list {
+    flex-direction: column;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+#event-list div {
+    margin-bottom: 10px;
 }

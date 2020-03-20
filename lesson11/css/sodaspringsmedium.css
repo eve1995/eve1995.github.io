@@ -33,7 +33,6 @@
     }
     .article-topic {
         font-size: 1.1rem;
-        margin-top: inherit;
         margin-bottom: 30px;
         padding: 15px;        
     }
@@ -44,4 +43,12 @@
         width: 300px;
         padding-left: 15px;
     }
+    #event-list {
+        font-size: 1.1rem;
+    }
+    .events {
+        width: 480px;
+        margin-top: inherit;
+    }
 }
+

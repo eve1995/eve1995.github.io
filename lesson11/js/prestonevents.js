@@ -1,27 +1,22 @@
 const prestonEventsURL="https://byui-cit230.github.io/weather/data/towndata.json";
-const pagetowns = ["Preston"];
 fetch(prestonEventsURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
+    const pagetowns = ["Preston"];
+    const towns = jsObject['towns'];
     for (let i = 0; i < towns.length; i++ ) {
         if (pagetowns.includes(towns[i].name))
         {
-            // Get the variable from the JSON file (array)
-            const eventArray = towns[i].events;
-            
-            // loop over all elements
-            eventArray.forEach(element => 
-            {
-                // 1. Create a variable: 
-                let divEvent = document.createElement('div');
-
-                // 2. Set the content of the div:  
-                divEvent.TextContent = element;
-
-                // 3. Append div to event-list: 
-                document.getElementById('event-list').appendChild(divEvent);
-            }); 
+          const eventArray = towns[i].events;
+          eventArray.forEach(element => 
+          {
+              let divEvent = document.createElement('div');
+                
+              divEvent.innerHTML = element;
+              
+              document.getElementById('event-list').appendChild(divEvent);
+          }); 
         }
     }    
   });
