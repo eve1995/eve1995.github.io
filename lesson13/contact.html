@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset = "utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" 
+        content=">Contact Page project for Evelyn Lamb in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+  <title>Contact Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Georgia|Roboto" rel="stylesheet">
+  <link rel="icon" href="images/salmonlogoicon.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+   <header>
+       <div class="logo-div">
+            <a href="home.html">
+                <img class="logo" src="images/salmonlogo.png" alt="Image of salmon">  
+            </a>    
+            <h1>Salmon River Adventures</h1>
+       </div>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#" >&#9776; Menu </a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="riverguide.html">River Guide</a></li>
+                <li><a class="selected-page" href="contact.html">Contact</a></li>         
+                <li><a href="reservation.html">Reservation</a></li>
+            </ul>  
+        </nav>
+
+    </header> 
+    <main>
+            <div class="hero-div">
+                <picture>
+                    <source media="(max-width: 200px)" srcset="images/contactpage200.jpg"/> 
+                    <source media="(max-width: 37.5em)" srcset="images/contactpage500.jpg"/> 
+                    <source media="(max-width: 60em)" srcset="images/contactpage800.jpg"/> 
+                    <img class="photo" src="images/contactpage.jpg" alt="image of People in River">
+                </picture>
+            
+            </div>  
+            <div class="map-image">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16783.810492335026!2d-116.32452229089093!3d45.42017992330163!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c55ddc7fd9d5%3A0x835ef2ac6cb8432e!2sRiggins%2C%20ID%2083549!5e0!3m2!1sen!2sus!4v1585790599578!5m2!1sen!2sus" width="1000" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+    
+    
+            <div class="map-info">
+                <table class= "address-table">
+                    <tr>
+                        <td class= "address-title"><strong><h2>Salmon River Adventures</h2></strong></td>
+                    </tr>
+                    <tr>
+                        <td class= "address">10000 S. Main St</td>
+                    </tr>
+                    <tr>
+                        <td class= "address">Riggins, ID 83549</td>
+                    </tr>
+                    <tr>
+                        <td class="contact">
+                            <img class="contact-image" src="images/phoneimages.png" alt="image of phone">
+                            <span>208-828-1972</span>
+                        </td>             
+                    </tr>
+                    <tr>
+                        <td class="contact">
+                            <img class="contact-image" src="images/mailimages.png" alt= "image of email">
+                            <span>salmonriveradventures.com</span>
+                        </td>
+                    </tr>                            
+                </table>             
+            </div>
+            <h1>Comtact Salmon River Adventures</h1>
+            <div class="contact-page-form">
+                <fieldset>
+                    <label class="contact-page-form-info">Full Name*<input type= "text" name= "fname" pattern="[A-Za-z\s]{5,}" required></label> 
+                    <label class="contact-page-form-info">Email*<input type= "email" name= "email" required></label>
+                    <label class="contact-page-form-info">Phone Number*<input type= "tel" name= "phone" required></label> 
+                    <label class="contact-page-form-info">Message* <textarea id="message" name="message"></textarea></label>  
+                        <div class="submit-contact">
+                            <input type="button" value="SUBMIT REQUEST"/>
+                        </div>
+                </fieldset>
+            </div>
+       </div>
+       
+    </main>
+    <footer>
+        <div class="footer-div">
+            &copy;<span id="copyright-year"></span> Salmon River Adventures
+            <br>Evelyn Lamb
+            <br><span id="lastModified"></span>
+            <br><span id="weatherAttribution">Data Provided by </span>
+            <a href=""></a>
+            <div class="logos">
+                <a href="https://www.facebook.com" target="_blank"><img class= "socialmedia" src="images/facebook.png" alt ="facebook logo"></a>
+                <a href="https://www.pinterest.com" target="_blank"><img class= "socialmedia" src="images/pinterest.png" alt ="pinterest logo"></a>
+                <a href="https://www.twitter.com" target="_blank"><img class= "socialmedia" src="images/twitter.png" alt="twitter logo"></a> 
+            </div>
+
+        </div>   
+    </footer>
+    <script src= "js/ham.js"></script>
+    <script src= "js/date.js"></script>
+</body>
+</html>
+    

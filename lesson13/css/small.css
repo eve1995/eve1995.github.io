@@ -1,0 +1,349 @@
+.logo {
+    max-width: 10em;
+    padding-left: 40px;
+    margin-bottom: 5px;
+    width: 100px;
+}
+.logo-div {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    font-size: 10px;
+    color: white;
+   
+}
+.hero-div {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.hero-div img {
+    width: 100%;
+}
+header {
+     background-color: #0e3b43;
+}
+.reservation-main h1 {
+    margin-left: 15px;
+    font-family: "Courgette", "Georgia", "Roboto";
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    font-family: "Courgette", "Georgia", "Roboto";
+}
+
+.navigation li {
+    display: none;
+    padding: 15px;
+}
+.navigation {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    max-width: 1000px;
+}
+nav {
+    background: #d8ad2d;
+}
+.navigation li:first-child {
+	display: block;
+}
+nav ul li a {
+    white-space: nowrap;
+}
+
+a {
+    color:black;
+}
+a:hover, footer a:hover, .selected-page {
+    color: #000000;
+    font-weight: bolder;
+}
+nav li:hover{
+    background-color: #e5dfd5;
+    
+}
+
+.responsive li {
+    display: block;
+    border-top-style: solid;
+    border-top-width: thin;
+}
+main {
+    background-color: #e5dfd5;
+    padding-bottom: 20px;
+}
+.reservation-div {
+    max-width: 1000px;
+    margin: auto;
+}
+.local-weather {
+    text-align: right;
+    background-color: khaki;
+}
+.local-weather h2, .map-info h2 {
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Georgia", "Roboto", "serif";
+    font-size: 1.4rem;
+}
+.summarytable {
+    padding-bottom: 15px;
+    margin: auto;
+}
+td {
+    text-align: left;
+    padding-left: 30px;
+    
+}
+.tableinfo {
+    text-align: right;
+    width: 50%;
+}
+.activity {
+    background-color: #d8ad2d;
+    font-size: .8rem;
+    margin: auto;
+}
+.activity h2 {
+   text-align: center;    
+   padding-top: 15px;
+   font-family: "Georgia", "Roboto", "serif";
+}
+
+.activity img {
+    width: 100%;
+    padding-bottom: 15px;
+}
+.activity a {
+    width: 90%;
+    margin: auto;
+}
+footer { 
+    background: #0e3b43;
+    color: white;
+    display: flex;       
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-div {
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.socialmedia {
+    width: 10%;
+    padding-top: 15px;
+   
+}
+.contact-image {
+    width: 50%;
+}
+.contact-info {
+    margin: auto;
+}
+.contact {
+    text-align: center;
+}
+.contact img {
+    width: 20px;
+}
+.map-image {
+    display: none;
+}
+.map-info {
+    text-align: right;
+    background-color: khaki;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+.address {
+    text-align: center;
+}
+.address-table {
+    width: 100%;
+}
+.address-table td {
+    padding-left: 0;
+}
+input {
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    margin-top: 15px;
+    background-color: #0e3b43;
+    padding: 20px;
+  }
+.call-to-action {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+.plan-activity {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.address td {
+    text-align: left;
+}
+header a {
+    text-decoration: none;
+    font-size: 1rem;
+   
+}
+.activity-desc {
+    background-color: #d8ad2d;
+    font-size: 1rem;
+    text-align: left;
+    margin: 15px;
+    padding: 30px;
+}
+.activity-desc h2 { 
+    padding-top: 15px;
+    font-family: "Georgia", "Roboto", "serif";
+}
+.activity-desc img {
+    width: 230px;
+}
+.activity-text {
+    width: 100%; 
+    font-size: 1rem;
+}
+.activity-text p {
+    margin-left: 20px;
+    margin-right: 20px;
+   
+
+}
+.activity-info {
+    max-width: 1000px;
+    margin: auto;
+}
+.table-area {
+    background-color: #d8ad2d;
+    font-size: .6rem;
+    margin: 15px;
+    padding: 30px 15px 30px 30px;
+}
+th {
+    font-size: 1.5rem;
+}
+tbody {
+    font-size: 1.2rem;
+}
+
+.personal-info-info {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.personal-info-info input {
+    max-width: 20rem;    
+    width: 100%;
+    font-size: 1rem;
+    padding: 15px;
+    display: block;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 15px;   
+    color: black;
+}
+form legend {
+    color: white;
+    margin: 1.3rem;
+    padding: .5rem;
+}
+fieldset {
+    border: 2.5px solid #d8ad2d;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+legend {
+    font-size: 1.5rem;
+    padding-top: 25px;
+    padding-bottom: 25px;
+   
+}
+
+select, input {
+    padding: 15px;
+}
+
+#comments {
+    display: block;
+    margin-top: 5px;
+    width: 100%;
+    max-width: 20rem;
+    padding: 15px;
+    padding: 70px;
+    min-height: 125px;
+}
+.table-area td p {
+    display: list-item;
+    margin: 0;
+}
+.table-area thead {
+    text-align: left;
+}
+ #message {
+     width: 100%;   
+     display: block;
+     max-width: 15.5rem;
+     padding: 50px;
+     margin-top: 5px;
+ }
+ .pcontact-page-form-info {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.contact-page-form-info input {
+    max-width: 20rem;    
+    width: 100%;
+    font-size: 1rem;
+    padding: 15px;
+    display: block;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 15px;   
+    color: black;
+}
+.contact-page-form {
+    margin: auto;
+    max-width: 500px;
+    padding-left: 90px;
+}
+.submit-contact input {
+    margin-left: 150px;
+    padding: 15px;
+    font-size: 1rem;
+}
+body {
+    font-family: "Georgia";
+}
+p {
+    font-family: "Roboto";
+}
+.experts {
+    max-width: 1000px;
+    margin: auto;
+}
+.personas {
+    display: grid;
+    background-color: #d8ad2d;
+    padding: 25px;
+    margin-top: 15px;
+
+}
+.personas img {
+    width: unset;
+}
+.personas h2 {
+    text-align: center;
+}

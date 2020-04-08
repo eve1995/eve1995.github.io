@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset = "utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" 
+        content="Salmon River Adventures project for Evelyn Lamb in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+  <title>Salmon River Adventures</title>
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Georgia|Roboto" rel="stylesheet">
+  <link rel="icon" href="images/salmonlogoicon.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+   <header>
+       <div class="logo-div">
+            <a href="home.html">
+                <img class="logo" src="images/salmonlogo.png" alt="Image of salmon">  
+            </a>    
+            <h1>Salmon River Adventures</h1>
+       </div>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#" >&#9776; Menu </a></li>
+                <li><a class="selected-page" href="home.html">Home</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="riverguide.html">River Guide</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+            </ul>  
+        </nav>   
+    </header> 
+
+    <main>
+        <div class="hero-div">
+            <picture>
+                <source media="(max-width: 200px)" srcset="images/homepage200.png"/> 
+                <source media="(max-width: 37.5em)" srcset="images/homepage500.png"/> 
+                <source media="(max-width: 60em)" srcset="images/homepage800.png"/> 
+                <img class="photo" src="images/homepage.png" alt="image of Salmon River">
+            </picture>
+        
+        </div>    
+        <div class="adventure-trips">
+            <div class="activity">
+                <h2>Salmon River Rafting</h2>
+                <a href="reservation.html">
+                    <img src="images/salmonrafting200.jpg" alt="Image of people rafting">
+                </a>
+            </div>
+            <div class="activity">
+                <h2>Salmon River Kayaking</h2> 
+                <a href="reservation.html">
+                    <img src="images/salmonkayaking200.jpg" alt="Image of a person Kayaking">
+                </a>
+            </div>
+            <div class="activity">
+                <h2>Idaho & Oregon Rafting</h2>
+                <a href="reservation.html">
+                    <img src="images/idaho&oregon200.jpg" alt="Image of people in river">
+                </a>
+            </div>
+        </div> 
+
+        <div class="plan-activity">
+            <span>Plan Your Activity Today</span><br>
+        </div>
+        
+        <div class="call-to-action">
+            <input type="button" value="Let's Get Started!"/>
+        </div>
+
+        <div class="weather-info">
+            <section class="local-weather">
+                <h2>Local Weather Conditions</h2>
+                <table class= "summarytable">
+                    <tr>
+                        <td class="tableinfo"><strong>Currently:</strong></td>
+                        <td><span id="currently"></span></td>
+                    </tr>
+                    <tr>    
+                        <td class="tableinfo"><strong>High:</strong></td>
+                        <td><span id="temperature"></span>&deg; F</td>
+                    </tr>
+                    <tr>
+                        <td class="tableinfo"><strong>Wind Chill:</strong></td>
+                        <td><span id="wind-chill"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="tableinfo"><strong>Humidity: </strong></td>
+                        <td><span id="humidity"></span>%</td>
+                    </tr>
+                    <tr>
+                        <td class="tableinfo"><strong>Wind Speed:</strong></td>
+                        <td><span id="wind-speed"></span> mph</td>
+                    </tr>
+                </table>
+
+            </section>
+        </div>
+            
+        <div class="map-image">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16783.810492335026!2d-116.32452229089093!3d45.42017992330163!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c55ddc7fd9d5%3A0x835ef2ac6cb8432e!2sRiggins%2C%20ID%2083549!5e0!3m2!1sen!2sus!4v1585790599578!5m2!1sen!2sus" width="1000" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+
+        <div class="map-info">
+            <h2>Salmon River Adventures</h2>
+            <table class= "address-table">
+                <tr>
+                    <td class= "address">10000 S. Main St</td>
+                </tr>
+                <tr>
+                    <td class= "address">Riggins, ID 83549</td>
+                </tr>
+                <tr>
+                    <td class="contact">
+                        <img class="contact-image" src="images/phoneimages.png" alt="image of phone">
+                        <span>208-828-1972</span>
+                    </td>             
+                </tr>
+                <tr>
+                    <td class="contact">
+                        <img class="contact-image" src="images/mailimages.png" alt= "image of email">
+                        <span>salmonriveradventures.com</span>
+                    </td>
+                </tr>                            
+            </table>             
+        </div>
+            
+    </main>
+
+    <footer>
+        <div class="footer-div">
+            &copy;<span id="copyright-year"></span> Salmon River Adventures
+            <br>Evelyn Lamb
+            <br><span id="lastModified"></span>
+            <br><span id="weatherAttribution">Data Provided by </span>
+            <a href=""></a>
+            <div class="logos">
+                <a href="https://www.facebook.com" target="_blank"><img class= "socialmedia" src="images/facebook.png" alt ="facebook logo"></a>
+                <a href="https://www.pinterest.com" target="_blank"><img class= "socialmedia" src="images/pinterest.png" alt ="pinterest logo"></a>
+                <a href="https://www.twitter.com" target="_blank"><img class= "socialmedia" src="images/twitter.png" alt="twitter logo"></a> 
+            </div>
+
+        </div>   
+    </footer>
+        <script src= "js/ham.js"></script>
+        <script src= "js/local-weather.js"></script>
+        <script src= "js/date.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset = "utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" 
+        content="River Guide Page project for Evelyn Lamb in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+  <title>River Guide Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Georgia|Roboto" rel="stylesheet">
+  <link rel="icon" href="images/salmonlogoicon.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+   <header>
+       <div class="logo-div">
+            <a href="home.html">
+                <img class="logo" src="images/salmonlogo.png" alt="Image of salmon">  
+            </a>    
+            <h1>Salmon River Adventures</h1>
+       </div>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#" >&#9776; Menu </a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a class="selected-page" href="riverguide.html">River Guide</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="reservation.html">Reservation</a></li> 
+           </ul>  
+        </nav>   
+    </header> 
+
+    <main>
+        <div class="hero-div">
+            <picture>
+                <source media="(max-width: 200px)" srcset="images/guide200.jpg"/> 
+                <source media="(max-width: 37.5em)" srcset="images/guide500.jpg"/> 
+                <source media="(max-width: 60em)" srcset="images/guide800.jpg"/> 
+                <img class="photo" src="images/guide.jpg" alt="image of a person in River">
+            </picture>
+        </div>
+        <div class="experts">
+            <h1>Meet Our Experts</h1>    
+            <div class="personas">
+            </div>    
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-div">
+            &copy;<span id="copyright-year"></span> Salmon River Adventures
+            <br>Evelyn Lamb
+            <br><span id="lastModified"></span>
+            <br><span id="weatherAttribution">Data Provided by </span>
+            <a href=""></a>
+            <div class="logos">
+                <a href="https://www.facebook.com" target="_blank"><img class= "socialmedia" src="images/facebook.png" alt ="facebook logo"></a>
+                <a href="https://www.pinterest.com" target="_blank"><img class= "socialmedia" src="images/pinterest.png" alt ="pinterest logo"></a>
+                <a href="https://www.twitter.com" target="_blank"><img class= "socialmedia" src="images/twitter.png" alt="twitter logo"></a> 
+            </div>
+
+        </div>   
+    </footer>
+    <script src= "js/ham.js"></script>
+    <script src= "js/riverguide-json.js"></script>
+    <script src= "js/riverguide.js"></script>
+</body>
+</html>

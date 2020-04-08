@@ -1,0 +1,115 @@
+@media only screen and (min-width:40em){
+
+    .navigation {
+        display: flex;
+        margin: auto;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 100%;
+	}
+	.navigation li:first-child {
+		display: none;
+    }
+    .responsive li {
+        border-top-style: none;
+    }
+    .hero-div {
+        margin-bottom: 30px;
+    }
+    .activity-desc img {
+        width: 450px;
+        float: right;
+        margin: 0 20px 20px 20px;  
+    }
+    .activity {        
+        display: grid;
+        margin: auto auto 30px auto;
+        width: 90%;
+    }
+    .activity img {
+        padding-bottom: 35px;
+    }
+    .local-weather {
+        margin-bottom: 50px;
+    }
+    .weather-info, .map-info {
+        font-size: 2rem;
+    }
+    .map-info {
+        padding-bottom: 35px;
+    }
+
+    .activity h2 {
+        font-size: 2.5rem;
+    }
+    .plan-activity {
+        margin-top: 50px;
+        font-size: 3rem;
+    }
+    .logo {
+        max-width: 20em;
+        padding-left: 50px;
+        padding-bottom: 10px;
+        width: unset;
+    }
+    h1 {
+        font-size: 2.5rem;
+        padding-top: 25px;
+    }
+    img {
+        width: 100%;
+        margin: auto;
+    }
+    
+    td .address {
+        margin-left: 220px;
+    }
+
+    .contact-info{
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    header a {
+        font-size: 1.3rem;
+    }
+    .address-table {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .socialmedia {
+        width: 50px;
+    }
+    main {
+        padding-bottom: 50px;
+    }
+    .footer-div {
+        font-size: 1.2rem;
+    }
+    .map-image {
+        display: block;
+        margin: auto;
+        max-width: fit-content;
+    }
+    body {
+        background-color: #e5dfd5;
+    }
+    input {
+        font-size: 2.5rem;
+        padding: 45px;
+        height: auto;
+        
+    }
+    #comments {
+        min-height: 150px;
+    }
+    .personas img {
+        float: left;
+        margin-right: 45px;
+    }
+    .local-weather h2, .map-info h2 {
+        font-size: unset;
+    }
+}
+

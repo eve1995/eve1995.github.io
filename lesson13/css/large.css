@@ -1,0 +1,58 @@
+@media only screen and (min-width:60em){
+
+    .logo {
+        margin-bottom: 10px;
+      
+    }
+    .hero-div {
+        margin-bottom: 50px;
+    }
+    h1 {
+        font-size: 3rem;
+        margin-left: 80px;
+    }
+    header a {
+        font-size: 1.5rem;
+    }
+    .activity h2 {
+        font-size: 2rem;
+    }
+    .activity {        
+        margin: 0 20px 0 20px;
+    }
+    .adventure-trips {
+        display: flex;
+        max-width: 1000px;
+        margin: auto;
+    }
+    .weather-info {
+        max-width: 1000px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .map-info{
+        max-width: 1000px;
+        margin: auto;
+    }
+    #comments {
+        min-height: 175px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
