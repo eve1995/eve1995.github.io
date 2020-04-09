@@ -36,59 +36,58 @@
 
     </header> 
     <main>
-            <div class="hero-div">
-                <picture>
-                    <source media="(max-width: 200px)" srcset="images/contactpage200.jpg"/> 
-                    <source media="(max-width: 37.5em)" srcset="images/contactpage500.jpg"/> 
-                    <source media="(max-width: 60em)" srcset="images/contactpage800.jpg"/> 
-                    <img class="photo" src="images/contactpage.jpg" alt="image of People in River">
-                </picture>
-            
-            </div>  
-            <div class="map-image">
+        <div class="hero-div">
+            <picture>
+                <source media="(max-width: 200px)" srcset="images/contactpage200.jpg"/> 
+                <source media="(max-width: 37.5em)" srcset="images/contactpage500.jpg"/> 
+                <source media="(max-width: 60em)" srcset="images/contactpage800.jpg"/> 
+                <img class="photo" src="images/contactpage.jpg" alt="image of People in River">
+            </picture>
+        
+        </div>  
+        <div class="map-image">
 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16783.810492335026!2d-116.32452229089093!3d45.42017992330163!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c55ddc7fd9d5%3A0x835ef2ac6cb8432e!2sRiggins%2C%20ID%2083549!5e0!3m2!1sen!2sus!4v1585790599578!5m2!1sen!2sus" width="1000" height="500" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16783.810492335026!2d-116.32452229089093!3d45.42017992330163!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c55ddc7fd9d5%3A0x835ef2ac6cb8432e!2sRiggins%2C%20ID%2083549!5e0!3m2!1sen!2sus!4v1585790599578!5m2!1sen!2sus" width="1000" height="500" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+
+        <div class="map-info">
+            <table class= "address-table">
+                <tr>
+                    <td class= "address-title"><h2></strong>Salmon River Adventures</strong></h2></td>
+                </tr>
+                <tr>
+                    <td class= "address">1000 S. Main St</td>
+                </tr>
+                <tr>
+                    <td class= "address">Riggins, ID 83549</td>
+                </tr>
+                <tr>
+                    <td class="contact">
+                        <img class="contact-image" src="images/phoneimages.png" alt="image of phone">
+                        <span>208-828-1972</span>
+                    </td>             
+                </tr>
+                <tr>
+                    <td class="contact">
+                        <img class="contact-image" src="images/mailimages.png" alt= "image of email">
+                        <span>salmonriveradventures.com</span>
+                    </td>
+                </tr>                            
+            </table>             
+        </div>
+        <h1>Contact Salmon River Adventures</h1>
+        <div class="contact-page-form">
+            <fieldset>
+                <label class="contact-page-form-info">Full Name*<input type= "text" name= "fname" pattern="[A-Za-z\s]{5,}" required></label> 
+                <label class="contact-page-form-info">Email*<input type= "email" name= "email" required></label>
+                <label class="contact-page-form-info">Phone Number*<input type= "tel" name= "phone" required></label> 
+                <label class="contact-page-form-info">Message* <textarea id="message" name="message"></textarea></label>     
+            </fieldset>
+            <div class="submit-contact">
+                <input type="button" value="SUBMIT REQUEST"/>
             </div>
-    
-    
-            <div class="map-info">
-                <table class= "address-table">
-                    <tr>
-                        <td class= "address-title"><strong><h2>Salmon River Adventures</h2></strong></td>
-                    </tr>
-                    <tr>
-                        <td class= "address">1000 S. Main St</td>
-                    </tr>
-                    <tr>
-                        <td class= "address">Riggins, ID 83549</td>
-                    </tr>
-                    <tr>
-                        <td class="contact">
-                            <img class="contact-image" src="images/phoneimages.png" alt="image of phone">
-                            <span>208-828-1972</span>
-                        </td>             
-                    </tr>
-                    <tr>
-                        <td class="contact">
-                            <img class="contact-image" src="images/mailimages.png" alt= "image of email">
-                            <span>salmonriveradventures.com</span>
-                        </td>
-                    </tr>                            
-                </table>             
-            </div>
-            <h1>Contact Salmon River Adventures</h1>
-            <div class="contact-page-form">
-                <fieldset>
-                    <label class="contact-page-form-info">Full Name*<input type= "text" name= "fname" pattern="[A-Za-z\s]{5,}" required></label> 
-                    <label class="contact-page-form-info">Email*<input type= "email" name= "email" required></label>
-                    <label class="contact-page-form-info">Phone Number*<input type= "tel" name= "phone" required></label> 
-                    <label class="contact-page-form-info">Message* <textarea id="message" name="message"></textarea></label>     
-                </fieldset>
-                <div class="submit-contact">
-                    <input type="button" value="SUBMIT REQUEST"/>
-                </div>
-            </div>
-       </div>
+        </div>
        
     </main>
     <footer>

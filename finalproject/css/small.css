@@ -281,6 +281,10 @@ legend {
 select, input {
     padding: 15px;
 }
+select {
+    display: block;
+    margin-top: 5px;
+}
 #comments {
     display: block;
     margin-top: 5px;
