@@ -39,7 +39,6 @@
     .map-info {
         padding-bottom: 35px;
     }
-
     .activity h2 {
         font-size: 2.5rem;
     }
@@ -65,7 +64,6 @@
     td .address {
         margin-left: 220px;
     }
-
     .contact-info{
         margin: auto;
         padding-top: 20px;
@@ -98,18 +96,50 @@
     input {
         font-size: 2.5rem;
         padding: 45px;
-        height: auto;
-        
+        height: auto;   
     }
     #comments {
-        min-height: 150px;
+        min-width: 50%;
+        min-height: 125px;
     }
-    .personas img {
+    .personas div:nth-child(odd) img {
         float: left;
         margin-right: 45px;
     }
+    .personas div:nth-child(even) img {
+        float: right;
+        margin-left: 45px;
+    }    
+    .personas {
+        display: grid;
+        margin-top: 15px;
+    }
+
     .local-weather h2, .map-info h2 {
         font-size: unset;
     }
+    .call-to-action a {
+        padding: 2rem 2.5rem;
+        font-size: 1.5rem;
+      
+    }
+    .contact-page-form-info input {
+        width: 100%;
+    }
+    #message {
+        max-width: 15.5rem;
+    }
+    .table-area {
+        display: flex;
+    }   
+    .personal-info-info input {
+        width: 100%;
+    }
+    fieldset {
+        padding: .5rem 2%;
+    }
+    .river-summary {
+        padding: 0 5px 0 5px;
+    }
+    
 }
-
