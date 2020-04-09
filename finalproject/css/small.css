@@ -23,14 +23,14 @@ header {
 }
 .reservation-main h1 {
     margin-left: 15px;
-    font-family: "Courgette", "Georgia", "Roboto";
+    font-family: "Courgette", "Roboto", serif;
 }
 
 h1 {
     text-align: center;
     margin: auto;
     padding: 15px;
-    font-family: "Courgette", "Georgia", "Roboto";
+    font-family: "Courgette", "Roboto", serif;
     font-size: 1.5rem;
 }
 .navigation li {
@@ -83,7 +83,7 @@ main {
 .local-weather h2, .map-info h2 {
     padding-top: 20px;
     text-align: center;
-    font-family: "Georgia", "Roboto", "serif";
+    font-family: "Roboto", "serif";
     font-size: 1.4rem;
 }
 .summarytable {
@@ -106,7 +106,7 @@ td {
 .activity h2 {
    text-align: center;    
    padding-top: 15px;
-   font-family: "Georgia", "Roboto", "serif";
+   font-family: "Roboto", "serif";
 }
 .activity img {
     width: 100%;
@@ -218,7 +218,7 @@ header a {
 }
 .activity-desc h2 { 
     padding-top: 15px;
-    font-family: "Georgia", "Roboto", "serif";
+    font-family: "Roboto", "serif";
 }
 .activity-desc img {
     width: 230px;
@@ -323,10 +323,7 @@ select {
     padding: 15px;
     font-size: 1rem;
 }
-body {
-    font-family: "Georgia";
-}
-p {
+body, p {
     font-family: "Roboto";
 }
 .experts {
